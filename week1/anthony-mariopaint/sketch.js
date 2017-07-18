@@ -18,7 +18,7 @@ function draw(){
   box(200, 200, 200);
 }
 
-/* 
+ 
 function draw(){
     background(240);
     sphere(220);
@@ -39,4 +39,3 @@ function draw(){
     rotateY(frameCount * 0.01);
     cone(400,700);
 }
-*/
