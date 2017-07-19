@@ -18,14 +18,16 @@ function draw(){
 
     if ( x > 1000 || x < 0){
 
-        speedX = -speedX;
+        speedX = -speedX-1;
+        
     }
 
     y = y + speedY;
 
     if (y > 780 || y <0){
 
-        speedY = -speedY;
+        speedY = -speedY-1;
+        
     }
 
 }

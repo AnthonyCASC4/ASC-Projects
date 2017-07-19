@@ -3,7 +3,6 @@ function setup(){
     background("grey");
 }
 var x = 0;
-var 
 function draw(){
     background("grey");
     textSize(30);
@@ -13,7 +12,7 @@ function draw(){
     text("I was raging, it was late", x, 300);
     fill(255, 200, 100);
     textSize(25);
-    text("Current Points" + , 50, 500);
+    text("Current Points 0" , 50, 500);
     x++;
 }
 var randLetter = {
