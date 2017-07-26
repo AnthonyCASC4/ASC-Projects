@@ -1,0 +1,26 @@
+body {
+    background: navy;
+}
+
+h1 {
+    color: white;
+
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+.mainStyle {
+    text-align: center;
+    color: white;
+    font-size: 140%;
+}
+.Timeline1{
+    text-align: center;
+    color: white;
+    font-size: 175%;
+}
+.img{
+    height: 600px;
+    width: 300xp;
+}
