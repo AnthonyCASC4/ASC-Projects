@@ -1,26 +1,38 @@
-body {
-    background: navy;
-}
-
-h1 {
-    color: white;
-
-}
-body {
-    width: 100%;
-    margin: 0 auto;
-}
-.mainStyle {
-    text-align: center;
-    color: white;
-    font-size: 140%;
-}
-.Timeline1{
-    text-align: center;
-    color: white;
-    font-size: 175%;
-}
-.img{
-    height: 600px;
-    width: 300xp;
-}
+      body {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+      width: 100%;
+    }
+    a {
+      color: white;
+    }
+    h3 {
+      font-size: 70px;
+      width: 100%;
+    }
+    p {
+      font-size: 70px;
+      width: 100%;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    @media (max-width: 500px) {
+      body {
+        font-size: 36px;
+        padding: 5px;
+      }
+    }
