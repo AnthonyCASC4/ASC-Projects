@@ -13,6 +13,6 @@ $.ajax({
         var name = food.fields.item_name;
         var cals = food.fields.nf_calories;
 
-        $("body").append("<h2>This " + name + " has " + cals + " !!");                              
+        $("body").append("<h2>This " + name + " has " + cals + " Kcals!!</h2>");                              
     }
 });
