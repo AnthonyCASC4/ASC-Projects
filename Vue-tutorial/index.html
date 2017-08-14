@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js"></script>
+</head>
+<body>
+    <h1>Anthony is a good dude!</h1>
+    <div id="app">
+        {{message1}}
+        <br>
+        {{message2}}
+        <br>
+        <span v-bind:title="message3">
+            Hover your mouse over me for a few seconds
+            to see my dynamically bound title!
+        </span>
+        <ol>
+            <li v-for="todo in todos">
+            {{ todo.text }}
+            </li>
+        </ol>
+            <p>{{ message4 }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+    </div>
+    
+</body>
+  <script src = "main.js"></script>
+</html>

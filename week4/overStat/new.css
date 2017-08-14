@@ -1,0 +1,15 @@
+body {
+  background: url("https://m.popkey.co/827e18/Zm19R.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img {
+    height: 75%;
+    width: 75%;
+}
+img.XBOX {
+  width: 50px;
+  height: auto;
+}
